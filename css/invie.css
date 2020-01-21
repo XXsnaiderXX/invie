@@ -1,0 +1,227 @@
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Allerta', sans-serif;*/
+/**{ margin: 10px;
+	padding: 10px;
+	border: 2px solid black;
+
+}*/
+body{
+	font-family: 'Allerta', sans-serif;
+}
+input, textarea{
+	outline: 0;
+}
+input:focus, textarea:focus{
+	background: lightgray;
+}
+
+.contenedor{
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+.background{
+	background-image: url('../images/background.png');
+	background-size: cover;
+
+}
+.titulo{
+	font-size: 70px;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 15px;
+	margin-top: 70px;
+}
+.title-a{
+	font-size: 24px;
+	margin-top: 0px;
+	
+}
+.guitarras {
+	color: #1F313C;
+	margin-bottom: 60px;
+}
+.guitarras h2{
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 50px 0 80px 0;
+
+}
+.title-b{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.portada{
+
+	color: white;
+	padding: 20px;
+	height: 500px;
+
+
+}
+.portada button{
+	margin-bottom: 70px;
+}
+.menu{
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+
+}
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+
+}
+.menu li:before{
+	content: '»';
+	font-size: 30px;
+	line-height: 20px;
+	color: white;
+}
+.logotipo{
+	display: inline-block;
+	margin-left: 0;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.contenedor-guitarra-b{
+	margin-left: 370px;
+	position: relative;
+	bottom: 80px;
+}
+.contenedor-guitarra-a{
+	margin-right: 370px;
+	margin-left: 20px;
+}
+.left{
+	float: left;
+	position: relative;
+}
+.right{
+	float: right;
+	position: relative;
+	top: -127px;
+}
+.guitarra{
+
+	margin: 10px 10px 40px 10px;
+	padding: 10px;
+	/*overflow: hidden;*/
+	border: 1px solid #1F313C;
+	border-radius: 8px;
+}
+.guitarra.b{
+	height: 190px;
+}
+.guitarra ol{
+	padding: 0;
+}
+.header{
+	position: relative;
+}
+.button{
+	border-radius: 12px;
+	background: #FD324E;
+	color: white;
+	border: none;
+	font-size: 25px;
+	background: linear-gradient(to left,#fe344e, #ff7250);
+	padding: 5px 15px;
+	cursor: pointer;
+	text-decoration:none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.footer{
+	background: #222222;
+	padding: 50px 10px;
+}
+.contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.contacto img{
+	display: block;
+}
+.contacto strong{
+	display: block;
+}
+.contacto a{
+	color: white;
+
+	text-decoration: none;
+	margin: 10px 10px 10px 0;
+}
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+
+}
+.formulario
+{
+	display: flex;	
+	width: 	500px;
+	color: 	white;
+	
+}
+.col1, .col2{
+	display: 	flex;	
+	align-items: flex-start;
+	flex-direction: 	column;	
+}
+.col1{
+	margin-right: 15px;
+	width: 230px;
+
+}
+.intereses label{
+	font-size: 15px;
+
+}
+.formulario label, .sexo, .intereses{
+	margin-bottom: 10px;
+}
+.sexo{
+	margin-top: 10px;
+}
+.footer-precios .contenedor{
+	display: flex;
+	justify-content: space-between;
+
+}
+.footer-precios{
+	background: #1F313C;
+	width: 100%;
+	position: fixed;
+	bottom: 1px;
+}
+table {
+	width: 100%;
+}
+th{
+	background: #273b47;
+	color:white;
+}
+th{
+	padding: 10px 20px;
+	text-align: left;
+} 
+td{
+	padding: 20px;
+}
+table,td,th{
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
+.titulo .rayado{
+	text-decoration: underline;
+}
+.tabla{
+	margin: 50px;
+}
